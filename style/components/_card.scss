@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+  width: 100%;
+  background: $white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px 1px rgba(201, 213, 225, 0.5019607843);
+
+  &__img {
+    @include centerHorizontal;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__presentation {
+    @include centerVertical;
+    gap: 12px;
+    padding: 0 32px;
+  }
+
+  &__user {
+    display: flex;
+  }
+
+  // ------------------------------------------------
+
+  // todo : Include variables of texts for "presentation" aund "user" by screen size
+
+  @include mobileText;
+}

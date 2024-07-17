@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "manrope";
+  src: url(../../assets/font/manrope/Manrope-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "manrope";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  min-height: 100vh;
+  padding: 81px 24px;
+  background: #ecf2f8;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+  width: 100%;
+  background: #fefefe;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px 1px rgba(201, 213, 225, 0.5019607843);
+}
+.card__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__img img {
+  width: 100%;
+}
+.card__presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 32px;
+}
+.card__user {
+  display: flex;
+}
+.card h1 {
+  color: #48556a;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.card p {
+  color: #6e8098;
+  font-size: 13px;
+  line-height: 154%;
+}
+.card #name {
+  color: #48556a;
+  font-size: 13px;
+  font-weight: 700;
+}
+.card #birthday {
+  color: #9daec2;
+  font-size: 13px;
+}
+
+.user {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px 20px;
+}
+.user__infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.user__infos__avatar {
+  width: 40px;
+}
+.user__infos__avatar img {
+  width: 100%;
+  border-radius: 100px;
+}
+.user__infos__ND span {
+  display: block;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $mainFont;
+}
+
+body {
+  @include centerVertical;
+  gap: 50px;
+  min-height: 100vh;
+  padding: 81px 24px;
+  background: $lightGrey;
+}
